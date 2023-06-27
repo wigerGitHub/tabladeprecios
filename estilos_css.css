@@ -1,0 +1,197 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin-bottom: 5rem;
+}
+
+table{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* tr:nth-child(even) {
+  background-color: #dddddd;
+} */
+
+h2 {
+  text-align: center;
+  margin-top: 80px;
+  /* margin-bottom: 80px; */
+}
+
+.footer{
+  text-align: center;
+}
+
+thead {
+  background-color: #dddddd;
+}
+
+.turkesa {
+  background-color: #99ffff; 
+}
+
+.hiddend {
+  color: #fff;
+}
+
+.rojo {
+  background-color: rgba(255, 0, 0, 0.3);
+}
+
+/* A partir de aquí comienza un nuevo codigo */
+
+body {
+  font-family: sans-serif;
+  padding: 90px 20px 0;
+}
+
+#header {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+#nav-bar {
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 992px;
+  margin: 0 auto;
+}
+
+/* El nav-link aplica a todos los enlaces por lo que se agregó esta clase*/
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+/* Aquí en la parte inferior está el logo */
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0 40px;
+  /* El tamaño para el centrado lo determinamos por el .header  */
+  line-height: 60px; 
+}
+/* 
+.image {
+  width: 250px;
+  height: 80px;
+  position: relative;
+  
+}
+
+#header-img{
+  margin-top: auto;
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+/* Aquí en la parte superior está el logo */
+
+
+.nav-menu {
+  display: flex;
+  margin-right: 40px;
+  list-style: none;
+
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  /* cambio */
+  background-color: rgba(0, 0, 0, 0.5); 
+  position: fixed;
+  left: 0;
+  top: 60px;
+  width: 30%;
+
+  /* Quitamos el padding izquerdo que el navegador le da por defecto */
+  padding: 20px 0;
+
+  /* height: calc(100% - 60px);
+   overflow-y: auto; */
+
+  left: 100%;
+  transition: left 0.3s;
+    
+}
+
+.nav-menu-item {
+  font-size: 18px;
+  margin: 0 10px;
+  line-height: 70px;
+  text-transform: uppercase;
+  width: max-content;
+}
+
+.nav-menu-link {
+  padding: 8px 12px;
+  border-radius: 3px;
+}
+
+.nav-menu-link:hover,
+.nav-menu-link_active {
+  background-color: #fff;
+  color: #000;
+  transition: 0.5s;
+}
+
+.nav-toggle {
+  color: white;
+  background: none;
+  border: none;
+  font-size: 30px;
+  padding: 0 20px;
+  line-height: 60px;
+  cursor: pointer;
+
+  display: block;
+}
+
+.nav-menu_visible {
+  left: 70%;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-top: 70px;
+}
+
+#header {
+    height: 60px;
+}
+
+.nav-menu {
+  width: 100%;
+  left: 100%;
+}
+
+.nav-menu-item {
+  line-height: 70px;
+}
+
+.nav-menu_visible {
+  left: 0;
+}
+}

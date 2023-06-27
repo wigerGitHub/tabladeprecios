@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="estilos_css.css">
+  <script src="https://kit.fontawesome.com/f9c75a3aee.js" crossorigin="anonymous"></script>
+  <script defer src="index1.js"></script>
+</head>
+<body>
+  <header id="header">
+    <nav id="nav-bar">
+      <div class="logo">
+        <a href="#" class="logo nav-link">
+          Proyecto Wiger
+        </a>
+      </div>
+
+      <!-- Es un botton -->
+      <button class="nav-toggle nav-menu_visible">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <!-- Es un botton -->
+
+      <!-- Este es una lista desordenada -->
+      <ul class="nav-menu">
+        <li class="nav-menu-item"><a href="#plasticos" class="nav-menu-link nav-link">Precios Plásticos</a></li>
+        <li class="nav-menu-item"><a href="#lazzarony" class="nav-menu-link nav-link">Precios Lazzarony</a></li>
+        <li class="nav-menu-item"><a href="#alicorp" class="nav-menu-link nav-link">Precios Alicorp</a></li>
+        <li class="nav-menu-item"><a href="#nestle" class="nav-menu-link nav-link">Precios Nestlé</a></li>
+        <li class="nav-menu-item"><a href="#kris" class="nav-menu-link nav-link">Precios Kris</a></li>
+        <!-- <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link nav-menu-link_active">Contacto</a></li>  -->
+      </ul>
+      <!-- Este es una lista desordenada -->
+    </nav>
+  </header>
+  <a href="tablaPlasticos.html">Tabla de pedido Plastico</a>
+  <br>
+  <a href="listaCereales.html">Haz click aquí para la lista de cereales</a>
+  <br>
+  <a href="practicaGrid.html">Practica Grid</a>
+  <br>
+
+  <h2 id="plasticos">Tabla de Precios de Plásticos</h2>
+  <p class="footer">Última actualización 8-03-2023</p>
+  <table>
+    <colgroup>
+      <col span="3">
+      <!-- <col span="1" style="background-color: rgb(0, 255, 0, 0.3)"> -->
+    </colgroup>
+    <thead>
+      <tr>
+        <th>Producto</th>
+        <th>Precio Unitario</th>
+        <th>Cantidad por pack</th>
+        <th>Total</th>
+        <th></th>
+        <th>Precio Venta</th>
+        <th>Ganacias totales</th>
+      </tr> 
+    </thead>
+    <tbody>
+      <tr>
+        <td>Plato Bandeja Pollo PC</td>
+        <td>Bs.19,17</td>
+        <td>12</td>
+        <td>Bs.230</td>
+        <td></td>
+        <td>Bs.20</td>
+        <td>Bs.10</td>
+      </tr>
+      <tr>
+        <td>Plato Jr. Belen</td>
+        <td>Bs.20</td>
+        <td>12</td>
+        <td>Bs.240</td>
+        <td></td>
+        <td>Bs.21</td>
+        <td>Bs.12</td>
+      </tr>
+      <tr>
+        <td>Plato Lechon Jr.</td>
+        <td>Bs.27,50</td>
+        <td>12</td>
+        <td>Bs.330</td>
+        <td></td>
+        <td>Bs.30</td>
+        <td>Bs.30</td>
+      </tr>
+      <tr>
+        <td>Vaso 500ml</td>
+        <td>Bs.7,13</td>
+        <td>40</td>
+        <td>Bs.285</td>
+        <td></td>
+        <td>Bs.8</td>
+        <td>Bs.35</td>
+      </tr>
+      <tr>
+        <td>Tapa 500ml</td>
+        <td>Bs.6,75</td>
+        <td>40</td>
+        <td>Bs.270</td>
+        <td></td>
+        <td>Bs.7</td>
+        <td>Bs.10</td>
+      </tr>
+      <tr>
+        <td>Vaso 400ml</td>
+        <td>Bs.6,5</td>
+        <td>40</td>
+        <td>Bs.260</td>
+        <td></td>
+        <td>Bs.8</td>
+        <td>Bs.60</td>
+      </tr>
+      <tr>
+        <td>Vaso 300ml</td>
+        <td>Bs.11,75</td>
+        <td>40</td>
+        <td>Bs.235</td>
+        <td></td>
+        <td>Bs.13</td>
+        <td>Bs.25</td>
+      </tr>
+      <tr>
+        <td>Vaso 180ml.</td>
+        <td>Bs.7,07</td>
+        <td>30</td>
+        <td>Bs.212</td>
+        <td></td>
+        <td>Bs.7,50</td>
+        <td>Bs.13</td>
+      </tr>
+      <tr class="turkesa">
+        <td>Vaso 150 ml</td>
+        <td>Bs.7,07</td>
+        <td>30</td>
+        <td style="background-color: rgb(0, 255, 0, 0.3)">Bs.212</td>
+        <td></td>
+        <td>Bs.7</td>
+        <td>Bs.-2</td>
+      </tr>
+      <tr>
+        <td>Vaso 120ml.</td>
+        <td>Bs.6,67</td>
+        <td>30</td>
+        <td>Bs.200</td>
+        <td></td>
+        <td>Bs.7</td>
+        <td>Bs.10</td>
+      </tr>
+      <tr>
+        <td>Bolsa Negra Belen</td>
+        <td>Bs.13</td>
+        <td>10</td>
+        <td>Bs.130</td>
+        <td></td>
+        <td>Bs.14</td>
+        <td>Bs.10</td>
+      </tr>
+      <tr>
+        <td>Bolsa Café Asatex</td>
+        <td>Bs.12</td>
+        <td>10</td>
+        <td>Bs.120</td>
+        <td></td>
+        <td>Bs.13</td>
+        <td>Bs.10</td>
+      </tr>
+      <tr>
+        <td>Bolsa Elma 16*25</td>
+        <td>Bs.1.80</td>
+        <td>50</td>
+        <td>Bs.90</td>
+        <td></td>
+        <td>Bs.2</td>
+        <td>Bs.10</td>
+      </tr>
+      <tr>
+        <td>Bolsa 20*30 Belen</td>
+        <td>Bs.3,10</td>
+        <td>50</td>
+        <td>Bs.155</td>
+        <td></td>
+        <td>Bs.3,50</td>
+        <td>Bs.20</td>
+      </tr>
+      <tr class="turkesa">
+        <td>Bolsa 25*32 Belen</td>
+        <td>Bs.3,80</td>
+        <td>50</td>
+        <td style="background-color: rgb(0, 255, 0, 0.3)">Bs.190</td>
+        <td></td>
+        <td>Bs.4</td>
+        <td>Bs.10</td>
+      </tr>
+      <tr>
+        <td>Bolsa 28*35</td>
+        <td>Bs.4,40</td>
+        <td>50</td>
+        <td>Bs.220</td>
+        <td></td>
+        <td>Bs.5</td>
+        <td>Bs.30</td>
+      </tr>
+      <tr class="turkesa">
+        <td>Bolsa 30*40</td>
+        <td>Bs.5,90</td>
+        <td>50</td>
+        <td style="background-color: rgb(0, 255, 0, 0.3)">Bs.295</td>
+        <td></td>
+        <td>Bs.6</td>
+        <td>Bs.5</td>
+      </tr>
+      <tr>
+        <td>Bombilla Gruesa</td>
+        <td>Bs.4,25</td>
+        <td>40</td>
+        <td>Bs.170</td>
+        <td></td>
+        <td>Bs.5</td>
+        <td>Bs.30</td>
+      </tr>
+      <tr class="turkesa">
+        <td>Bombilla Corrugada</td>
+        <td>Bs.3</td>
+        <td>50</td>
+        <td style="background-color: rgb(0, 255, 0, 0.3)">Bs.150</td>
+        <td></td>
+        <td>Bs.3</td>
+        <td>Bs.0</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td class="footer" colspan="7"><small>Se recomienda hacer unos ajustes a los precios que van en color <span class="turkesa">turquesa</span></small></td>
+      </tr>
+    </tfoot>
+  </table>
+
+
+  <h2 id="lazzarony">Tabla de precios Lazzarony</h2>
+  <p class="footer">Última actualización 14-06-2023</p>
+  <table>
+    <colgroup>
+    </colgroup>
+    <thead>
+      <tr>
+        <th>Producto</th>
+        <th>Unidad</th>
+        <th>Precio</th>
+        <th>Precio Venta</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Fideo Lazzarony</td>
+        <td>1@</td>
+        <td>Bs.92.5</td>
+        <td>Bs.95</td>
+      </tr>
+      <tr>
+        <td>Fideo Lazzarony</td>
+        <td>5kg</td>
+        <td>Bs.41</td>
+        <td>Bs.43</td>
+      </tr>
+      <tr>
+        <td>Fideo Surtido</td>
+        <td>10u*400g</td>
+        <td>Bs.36</td>
+        <td>Bs.38</td>
+      </tr>
+      <tr>
+        <td>Fideo Pasta</td>
+        <td>12u*400g</td>
+        <td>Bs.43</td>
+        <td>Bs.45</td>
+      </tr>
+    </tbody>
+    <tfoot>
+
+    </tfoot>
+  </table>
+
+
+  <h2 id="alicorp">Tabla de precios Alicorp</h2>
+  <p class="footer">Última actualización 11-03-2023</p>
+  <table>
+    <colgroup>
+      <col span="2">
+      <col span="1" style="color: rgba(32, 32, 32, 0.1)">
+    </colgroup>
+    <thead>
+      <tr>
+        <th>Producto</th>
+        <th>Unidad</th>
+        <th>Precio Compra</th>
+        <th>Precio Venta</th>
+        <th>Precio por pack</th>     
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Aceite Fino</td>
+        <td>20 Litros</td>
+        <td>Bs.257</td>
+        <td>Bs.260</td>
+        <td>No definido</td>
+      </tr>
+      <tr>
+        <td>Aceite Fino</td>
+        <td>4.5l</td>
+        <td>Bs.53</td>
+        <td>Bs.55</td>
+        <td>Bs.324</td>
+      </tr>
+      <tr>
+        <td>Aceite Fino Light</td>
+        <td>4.5l</td>
+        <td>Bs.79.50</td>
+        <td>Bs.82</td>
+        <td>Bs.320</td>
+      </tr>
+      <tr>
+        <td>Aceite Fino</td>
+        <td>1.8l</td>
+        <td>Bs.21.50</td>
+        <td>Bs.23</td>
+        <td>Bs.198</td>
+      </tr>
+      <tr>
+        <td>Aceite Fino Light</td>
+        <td>1.8l</td>
+        <td>Bs.33.40</td>
+        <td>Bs.35</td>
+        <td>No definido</td>
+      </tr>
+      <tr>
+        <td>Aceite Fino</td>
+        <td>900ml</td>
+        <td>Bs.10.50</td>
+        <td>Bs.12</td>
+        <td>Bs.130</td>
+      </tr>
+      <tr>
+        <td>Aceite Fino Light</td>
+        <td>900ml</td>
+        <td>Bs.16.50</td>
+        <td>Bs.18</td>
+        <td>No definido</td>
+      </tr>
+      <tr>
+        <td>Aceite Fino</td>
+        <td>450ml</td>
+        <td>Bs.5.45</td>
+        <td>Bs.6</td>
+        <td>Bs.138</td>
+      </tr>
+      <tr>
+        <td>Det. UNO</td>
+        <td>5kg</td>
+        <td class="hiddend">Bs.51.84</td>
+        <td>Bs.62</td>
+        <td>No definido</td>
+      </tr>
+      <tr>
+        <td>Det. UNO</td>
+        <td>700g</td>
+        <td>Bs.8.82</td>
+        <td>Bs.10</td>
+        <td>Bs.135</td>
+      </tr>
+      <tr>
+        <td>Lav. Limon Sapolio</td>
+        <td>1250ml</td>
+        <td>Bs.12.12</td>
+        <td>Bs.13</td>
+        <td>Bs.75</td>
+      </tr>
+      <tr>
+        <td>Lavandina Sapolio</td>
+        <td>1000ml</td>
+        <td>Bs.5.37</td>
+        <td>Bs.7</td>
+        <td>No definido</td>
+      </tr>
+      <tr>
+        <td>Fideos Don Vittorio</td>
+        <td>400g</td>
+        <td>Bs.6.10</td>
+        <td>Bs.7</td>
+        <td>Bs.150</td>
+      </tr>
+      <tr>
+        <td>Margarina Primor Balde</td>
+        <td>14.5kg</td>
+        <td>Bs.221</td>
+        <td>Bs.225</td>
+        <td>No existe</td>
+      </tr>
+      <tr>
+        <td>Atun VanCamps Aceite</td>
+        <td>184g</td>
+        <td>Bs.12.96</td>
+        <td>Bs.15</td>
+        <td>No definido</td>
+      </tr>
+      <tr>
+        <td>Atun VanCamps Agua</td>
+        <td>184g</td>
+        <td>Bs.12.6</td>
+        <td>Bs.14</td>
+        <td>No definido</td>
+      </tr>
+      <tr>
+        <td>Det Bolívar</td>
+        <td>2kg</td>
+        <td>Bs.35.83</td>
+        <td>Bs.38</td>
+        <td>No definido</td>
+      </tr>
+      <tr>
+        <td>Jabón Bolívar</td>
+        <td>200gr</td>
+        <td>Bs.4.05</td>
+        <td>Bs.4.5</td>
+        <td>Bs.200</td>
+      </tr>
+      <tr>
+        <td>Manteca Karina</td>
+        <td>400g</td>
+        <td>Bs.10.25</td>
+        <td>Bs.11</td>
+        <td>Bs.210</td>
+      </tr>
+      <tr>
+        <td>Mantequilla Regia</td>
+        <td>210g</td>
+        <td>Bs.8.50</td>
+        <td>Bs.10</td>
+        <td>Bs.</td>
+      </tr>
+      <tr>
+        <td>Mantequilla Regia</td>
+        <td>410g</td>
+        <td>Bs.15.30</td>
+        <td>Bs.17</td>
+        <td>Bs.</td>
+      </tr>
+      <tr>
+        <td>Mantequilla Regia</td>
+        <td>820g</td>
+        <td>Bs.27.60</td>
+        <td>Bs.29</td>
+        <td>Bs.</td>
+      </tr>
+    </tbody>
+    <tfoot>
+        <td class="footer" colspan="5"><small>Los precios incluyen descuentos ya establecidos</small></td>     
+    </tfoot>
+  </table>
+
+
+  <h2 id="nestle">Tabla de precios Nestlé</h2>
+  <p class="footer">Última actualización 11-03-2023</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Producto</th>
+        <th>Unidad</th>
+        <th>Precio Compra</th>
+        <th>Precio Venta</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Leche Evaporada Gloria</td>
+        <td>395g</td>
+        <td>Bs.7.63</td>
+        <td>Bs.9</td>
+      </tr>
+      <tr>
+        <td>Chocapic caja</td>
+        <td>350g</td>
+        <td>Bs.15</td>
+        <td>Bs.18</td>
+      </tr>
+      <tr>
+        <td>Chocapic caja</td>
+        <td>720g</td>
+        <td>Bs.29</td>
+        <td>Bs.32</td>
+      </tr>
+      <tr>
+        <td>ECCO</td>
+        <td>170g</td>
+        <td>Bs.13.96</td>
+        <td>Bs.16</td>
+      </tr>
+      <tr>
+        <td>Nescafé Frasco de vidrio</td>
+        <td>200g</td>
+        <td>Bs.29.17</td>
+        <td>Bs.32</td>
+      </tr>
+      <tr>
+        <td>Nescafé frasco de Vidrio</td>
+        <td>100g</td>
+        <td>Bs.15.63</td>
+        <td>Bs.18</td>
+      </tr>
+      <tr>
+        <td>Nescafé sachet</td>
+        <td>55g</td>
+        <td>Bs.7.3</td>
+        <td>Bs.9</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h2 id="kris">Tabla de precios KRIS</h2>
+  <p class="footer">Última actualización 05-06-2023</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Producto</th>
+        <th>Unidad</th>
+        <th>Cantidad por pack</th>
+        <th>Precio compra</th>
+        <th>Precio venta</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Mayonesa Galon Kris</td>
+        <td>3600ml</td>
+        <td>4</td>
+        <td>Bs.65.1</td>
+        <td>Bs.68</td>
+      </tr>
+      <tr>
+        <td>Ketchup Galon Kris</td>
+        <td>3950ml</td>
+        <td>4</td>
+        <td>Bs.48</td>
+        <td>Bs.50</td>
+      </tr>
+      <tr>
+        <td>Mostaza Galon Kris</td>
+        <td>3950ml</td>
+        <td>4</td>
+        <td>Bs.48</td>
+        <td>Bs.50</td>
+      </tr>
+      <tr>
+        <td>Mayonesa Real</td>
+        <td>2900ml</td>
+        <td>4</td>
+        <td>Bs.--</td>
+        <td>Bs.38</td>
+      </tr>
+      <tr>
+        <td>Ketchup Real</td>
+        <td>2900ml</td>
+        <td>4</td>
+        <td>Bs.21.67</td>
+        <td>Bs.27</td>
+      </tr>
+      <tr>
+        <td>Mayonesa Kris</td>
+        <td>~1kg</td>
+        <td>12</td>
+        <td>Bs.--</td>
+        <td>Bs.25</td>
+      </tr>
+      <tr>
+        <td>Ketchup Kris</td>
+        <td>~1kg</td>
+        <td>12</td>
+        <td>Bs.--</td>
+        <td>Bs.19</td>
+      </tr>
+      <tr>
+        <td>Mostaza Kris</td>
+        <td>~1kg</td>
+        <td>12</td>
+        <td>Bs.--</td>
+        <td>Bs.19</td>
+      </tr>
+      <tr>
+        <td>Mayonesa Real</td>
+        <td>1kg</td>
+        <td>12</td>
+        <td>Bs.15.40</td>
+        <td>Bs.17</td>
+      </tr>
+      <tr>
+        <td>Ketchup Real</td>
+        <td>1kg</td>
+        <td>12</td>
+        <td>Bs.11.20</td>
+        <td>Bs.13</td>
+      </tr>
+      <tr>
+        <td>Mayonesa Kris</td>
+        <td>485g</td>
+        <td>15</td>
+        <td>Bs.13.4</td>
+        <td>Bs.13</td>
+      </tr>
+      <tr>
+        <td>Mostaza Kris</td>
+        <td>490g</td>
+        <td>15</td>
+        <td>Bs.10.96</td>
+        <td>Bs.13</td>
+      </tr>
+      <tr>
+        <td>Ketchup Kris</td>
+        <td>490g</td>
+        <td>15</td>
+        <td>Bs.10.96</td>
+        <td>Bs.13</td>
+      </tr>
+      <tr>
+        <td>Mayonesa Kris</td>
+        <td>225g</td>
+        <td>24</td>
+        <td>Bs.6.92</td>
+        <td>Bs.8.00</td>
+      </tr>
+      <tr>
+        <td>Mostaza Kris</td>
+        <td>200g</td>
+        <td>24</td>
+        <td>Bs.5.50</td>
+        <td>Bs.6.00</td>
+      </tr>
+      <tr>
+        <td>Ketchup Kris</td>
+        <td>200g</td>
+        <td>24</td>
+        <td>Bs.5.50</td>
+        <td>Bs.6.00</td>
+      </tr>
+      <tr>
+        <td>Polvo para hornear</td>
+        <td>1kg</td>
+        <td>12</td>
+        <td>Bs.20.91</td>
+        <td>Bs.22</td>
+      </tr>
+      <tr>
+        <td>Mejorador de Masa</td>
+        <td>300g</td>
+        <td>12</td>
+        <td>Bs.18.83</td>
+        <td>Bs.20</td>
+      </tr>
+      <tr>
+        <td>Levadura Fresca</td>
+        <td>500g</td>
+        <td>25</td>
+        <td>Bs.7.5</td>
+        <td>Bs.8</td>
+      </tr>
+      <tr>
+        <td>Mayonesa Kris caja</td>
+        <td>120 ml</td>
+        <td>20</td>
+        <td>Bs.60</td>
+        <td>Bs.64</td>
+      </tr>
+      <tr>
+        <td>Mayonesa Kris caja</td>
+        <td>47 ml</td>
+        <td>25</td>
+        <td>Bs.60</td>
+        <td>Bs.29</td>
+      </tr>
+      <tr>
+        <td>Gelatina Neutra</td>
+        <td>42g</td>
+        <td>12</td>
+        <td>Bs.6.40</td>
+        <td>Bs.7</td>
+      </tr>
+      <tr>
+        <td>Mayonesa Real</td>
+        <td>9g</td>
+        <td>4</td>
+        <td>Bs.42.85</td>
+        <td>Bs.46</td>
+      </tr>
+      <tr>
+        <td>Ketchup Real</td>
+        <td>9g</td>
+        <td>4</td>
+        <td>Bs.34.65</td>
+        <td>Bs.36</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
